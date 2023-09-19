@@ -5,25 +5,25 @@ services:
     ports:
       - "86:80"
     deploy:
-      replicas: 3
+      replicas: 6
 
   train:
     image: binnyb2003/paytmtrain:latest
     ports:
       - "87:80"
     deploy:
-      replicas: 3
+      replicas: 6
 
   dth:
     image: binnyb2003/paytmdth:latest
     ports:
       - "88:80"
     deploy:
-      replicas: 3
+      replicas: 6
 
   recharge:
     image: binnyb2003/paytmrecharge:latest
     ports:
       - "89:80"
     deploy:
-      replicas: 3
+      replicas: 6
