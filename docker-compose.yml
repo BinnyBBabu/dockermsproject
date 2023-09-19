@@ -7,7 +7,7 @@ services:
     deploy:
       replicas: 6
   train:
-    image: vinodvanama/projecttrain:latest
+    image: binnyb2003/paytmtrain:latest
     ports:
       - "82:80"
     deploy:
